@@ -6,7 +6,7 @@ import random
 # PAGE CONFIG + STYLE
 # =====================================================
 st.set_page_config(
-    page_title="Employee Legal Assistant",
+    page_title="Legal Rights Assistant",
     page_icon="⚖️",
     layout="wide"
 )
@@ -136,7 +136,7 @@ def process_query(user_input):
 # =====================================================
 # SIDEBAR
 # =====================================================
-st.sidebar.title("⚖️ Employee Legal Assistant")
+st.sidebar.title("⚖️ Legal Rights Assistant")
 st.sidebar.markdown("""
 ### Supported Areas
 - Salary Delay
@@ -157,7 +157,7 @@ st.sidebar.markdown("""
 # =====================================================
 # MAIN UI
 # =====================================================
-st.title("Employee Legal Assistance Platform")
+st.title("Legal Rights Guidance Platform")
 st.caption("Structured legal guidance for workplace issues")
 
 st.divider()
