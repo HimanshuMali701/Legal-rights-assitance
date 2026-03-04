@@ -29,31 +29,22 @@ Live landing website (front-end): https://legal-rights-assistance.vercel.app/
 - Google Colab for GPU runtime (development)
 
 ---
-
+## Files & Structue
+```
+empowr-legal-ml/
+├─ app.py                 # Streamlit UI (main)
+├─ Leagal_Rights_assistance.ipynb            # Colab notebook (model)
+├─ requirements.txt
+├─ action.json
+├─ salary_laws.json
+├─ termination_laws.json
+├─ harassment_laws.json
+├─ benefits_laws.json
+├─ overtime_laws.json
+└─ README.md
+```
+---
 ## Quick start (Colab / local)
 
 > **Recommended:** Run the model in Google Colab (GPU) and keep Streamlit on Streamlit Cloud for production/demo. If you use Colab for live inference, expose endpoints via ngrok **only for demo**.
-```
-### empowr-legal-ml/
-├─ app.py                 # Streamlit UI (main)
-├─ FINAL.ipynb            # Colab notebook (model + optional Flask server)
-├─ requirements.txt
-├─ action.json
-├─ salary_laws.json
-├─ termination_laws.json
-├─ harassment_laws.json
-├─ benefits_laws.json
-├─ overtime_laws.json
-└─ README.md
-```bash
-empowr-legal-ml/
-├─ app.py                 # Streamlit UI (main)
-├─ FINAL.ipynb            # Colab notebook (model + optional Flask server)
-├─ requirements.txt
-├─ action.json
-├─ salary_laws.json
-├─ termination_laws.json
-├─ harassment_laws.json
-├─ benefits_laws.json
-├─ overtime_laws.json
-└─ README.md
+
